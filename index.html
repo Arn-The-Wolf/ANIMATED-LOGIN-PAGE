@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+
+        <div class="form-container register">
+
+            <form action="POST">
+                <H1>Register</H1>
+
+                <input type="text" placeholder="Username" class="Username">
+                <input type="password" placeholder="Password" class="Password">
+                <input type="password" placeholder="Confirm Password">
+
+                <button>Register</button>
+                <span>Or Register With</span>
+
+                <div class="social-icons">
+                    <a href="#"><box-icon type='logo' name='facebook-square'></box-icon></a>
+                    <a href="#"><box-icon type='logo' name='instagram'></box-icon></a>
+                    <a href="#"><box-icon type='logo' name='linkedin-square'></box-icon></a>
+                    <a href="#"><box-icon name='github' type='logo'></box-icon></a>
+                </div>
+            </form>
+        </div>
+        <div class="form-container login">
+            <form action="POST">
+                <h1>Login</h1>
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <a href="#">Forgot Your Password?</a>
+                <button>Login</button>
+
+                <span>Or Login With</span>
+
+                <div class="social-icons">
+                    <a href="#"><box-icon type='logo' name='facebook-square' class="facebook-square"></box-icon></a>
+                    <a href="#"><box-icon type='logo' name='instagram'></box-icon></a>
+                    <a href="#"><box-icon type='logo' name='linkedin-square'></box-icon></a>
+                    <a href="#"><box-icon name='github' type='logo'></box-icon></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel left">
+                    <h2>Welcome Back.</h2>
+                    <p>Login to the website.</p>
+                    <button class="hidden" id="login">Login</button>
+                </div>
+                <div class="toggle-panel right">
+                    <h2>Hi, Welcome to our website.</h2>
+                    <p>Register to use the website.</p>
+                    <button class="hidden" id="register">Register</button>
+                </div> 
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
